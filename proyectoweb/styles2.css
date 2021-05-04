@@ -121,22 +121,52 @@ hr {
 /*contenidoblockchain*/
 .contenidoblockchain h6 {
   font-size: 40px;
+  font-weight: 100;
   margin: 25px 0;
-  color: rgb(255, 250, 250);
+  color: rgb(246, 248, 248);
 }
 
 .contenidoblockchain h1 {
   font-size: 20px;
   margin: 25px 0;
-  color: rgb(255, 250, 250);
+  color: rgb(182, 210, 214);
   font-weight: 100;
 }
 .contenidoblockchain img {
 	display:block;
   margin:auto;
-  width: 900px; height: 900px;	
+  width: 900px; height: 700px;	
+  margin-bottom: 40px;
+
 }
 
+/*contenido defi*/
+.defi h6 {
+  font-size: 40px;
+  font-weight: 100;
+  margin: 25px 0;
+  color: rgb(246, 248, 248);
+}
+.defi img {
+	display:block;
+  margin:auto;
+	object-fit:cover;
+  width: 800px; height: 400px;	
+  margin-bottom: 40px;
+}
+
+.defi h3 {
+  font-size: 25px;
+  margin: 10px 0;
+  color: rgb(255, 250, 250);
+}
+
+.defi p {
+  font-size: 20px;
+  margin: 10px 0;
+  color: rgb(182, 210, 214);
+  font-weight: 130;
+}
 
 /*lista Exchanges*/
 .lista_Exchanges {
@@ -149,26 +179,34 @@ hr {
 	display:block;
   margin:auto;
 	object-fit:cover;
-  width: 400px; height: 400px;	}
-
+  width: 400px; height: 400px;	
+  margin-bottom: 40px;
+}
   
   .lista_Exchanges h6 {
     font-size: 40px;
     font-weight: 100;
     margin: 25px 0;
-    color: rgb(182, 210, 214);
+    color: rgb(246, 248, 248);
   }
   .lista_Exchanges h1 {
     font-size: 20px;
     margin: 10px 0;
-    color: rgb(255, 250, 250);
-    font-weight: 130;
+    color: rgb(182, 210, 214);
+    font-weight: 150;
   }
   .lista_Exchanges h3 {
-    font-size: 20px;
+    font-size: 25px;
     margin: 10px 0;
     color: rgb(255, 250, 250);
   }
+  .lista_Exchanges p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgb(182, 210, 214);
+    font-weight: 130;
+  }
+  
 
 /*Card top criptos*/
 .topcriptos-cards {
@@ -187,8 +225,9 @@ hr {
 
   .topcriptos-cards h6 {
     font-size: 40px;
-    margin: 25px 0;
-    color: rgb(182, 210, 214);
+  font-weight: 100;
+  margin: 25px 0;
+  color: rgb(246, 248, 248);
   }
 
 .topcriptos-cards h3 {

@@ -124,9 +124,16 @@ hr {
 
 .news-cards a {
   padding: 10px 0;
-  color: rgb(182, 210, 214);
+  color: rgb(239, 242, 243);
   text-transform: uppercase;
   display: inline-block;
+  font-weight: normal;
+}
+
+.news-cards p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: rgb(182, 210, 214);
   font-weight: normal;
 }
 
