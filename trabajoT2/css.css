@@ -1,0 +1,235 @@
+
+* {
+  font-family: 'Reggae One', cursive;
+}
+
+body {
+  background-image: url('3333.png');
+  
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.encabezado nav ul li a {
+  display: block;
+}
+
+.marco {
+  display: grid;
+/*  border-style: solid; 
+/*  border-color: red; */
+  grid-template-columns: 250px auto;
+  grid-template-rows: 150px 40px auto 40px;
+  grid-gap: 10px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.encabezado {
+ /*border-style: solid;
+  border-color: blue; */
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
+}
+
+.migas {
+ /* border-style: solid;
+  border-color: yellow;*/
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
+}
+
+.lado {
+ /* border-style: solid;
+  border-color: violet; */
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.contenido {
+/*  border-style: solid;
+  border-color: violet; */
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.pie {
+ /* border-style: solid;
+  border-color: aqua;*/
+  grid-column: 1 / span 2;
+  grid-row: 4 / span 1;
+}
+
+/*Css Menu Encabezado*/
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+}
+nav li {
+  display: inline-block;
+  width: 18%;
+  padding: auto auto;
+  background-color: rgba(25, 95, 175, 0.384);
+  border: 0px solid #000;
+  text-align: center;
+  color: #fff;
+}
+nav li:hover {
+  background-color: transparent;
+  color:white(0, 0, 0);
+}
+
+nav {
+  text-align: center;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  /* reparamos el estilo para pantallas estrechas */
+
+  .navbar,
+  .navbar a,
+  .navbar > div,
+  .dropbtn {
+    width: 100%;
+    float: none;
+  }
+  .dropdown-content a {
+    display: none;
+  }
+}
+
+/*Css Menu Lado*/
+
+.menuvertical {
+  width: 230px;
+  text-align: center;
+  margin: 10px;
+}
+
+.menuvertical a {
+  background-color: rgba(25, 95, 175, 0.384);
+  color: #fff;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.menuvertical a:hover {
+  background-color: #ccc;
+}
+
+.menuvertical a.active {
+  background-color:transparent;
+  color: white;
+}
+
+/*Tarjetas*/
+
+/*Tarjeta*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  color: white;
+  height: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  color: #f7f5f5;
+  margin-top: 100px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.container .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgb(255, 254, 254);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgb(252, 249, 249);
+}
+
+.container .card img {
+  width: 360px;
+  height: 250px;
+}
+
+.container .card h4 {
+  font-weight: 600;
+}
+
+.container .card p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.container .card a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*Numero de veces */
+
+#nVeces {
+  float: right;
+  margin-top: 25px;
+}
+
+/*Imagenes Pagina Actualidad */
+img.derecha {
+		float:right;
+		margin:5px;
+		/* width:420px; */
+		/* height:220px; */
+		width:25%;
+		height:auto;
+		object-fit:cover;
+	}
+
+.video {
+	float:center;
+		margin:5px;
+		/* width:420px; */
+		/* height:220px; */
+		width:25%;
+		height:auto;
+		object-fit:cover;
+}
