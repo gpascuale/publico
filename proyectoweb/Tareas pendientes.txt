@@ -1,0 +1,4 @@
+-Pagina de introduccion a proyectos en github
+-login logout(recuento de usuarios)
+-Banner principal mas bonito
+-Añadir algun efecto extra(burbujas)
