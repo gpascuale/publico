@@ -131,6 +131,10 @@ hr {
   color: rgb(255, 250, 250);
   font-weight: 100;
 }
+.contenidoblockchain img {
+	display:block;
+  margin:auto;
+  width: 1000px; height: 1000px;	}
 
 
 /*lista Exchanges*/
